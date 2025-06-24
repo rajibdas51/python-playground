@@ -7,3 +7,14 @@ x,y,z=fruits
 print(x)
 print(y)
 print(z)
+
+#global variable
+x = "awesome"
+
+def myfunc():
+  x = "fantastic"
+  print("Python is " + x)
+
+myfunc()
+
+print("Python is " + x)
