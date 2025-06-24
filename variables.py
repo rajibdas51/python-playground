@@ -1,4 +1,4 @@
-PI = 3.1416
+"""PI = 3.1416
 a,b,c = 1,2,3
 print(a,b)
 # unpack a collection
@@ -7,8 +7,9 @@ x,y,z=fruits
 print(x)
 print(y)
 print(z)
-
+"""
 #global variable
+"""
 x = "awesome"
 
 def myfunc():
@@ -17,4 +18,12 @@ def myfunc():
 
 myfunc()
 
-print("Python is " + x)
+print("Python is " + x) """
+
+def myfunc():
+  global x
+  x = "fantastic"
+  
+myfunc()
+ 
+print("Python is "+x)
