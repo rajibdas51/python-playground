@@ -20,6 +20,8 @@ myfunc()
 
 print("Python is " + x) """
 
+import sys
+print(sys.version)
 def myfunc():
   global x
   x = "fantastic"
@@ -27,3 +29,6 @@ def myfunc():
 myfunc()
  
 print("Python is "+x)
+
+if 5>2:
+   print("five is greater than two!")
