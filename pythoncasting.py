@@ -15,3 +15,12 @@ print(x)
 print(y)
 print(z)
 print(w)
+
+# string type casting
+x = str("s1")
+y = str(2)
+z = str(3.0)
+print(x)
+print(y)
+print(z)
+
