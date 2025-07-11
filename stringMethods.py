@@ -119,3 +119,11 @@ txt = "welcome to the jungle"
 x = txt.split()
 
 print(x)
+
+#The strip() method removes any leading, and trailing whitespaces.
+
+txt = "     banana     "
+
+x = txt.strip()
+
+print("of all fruits", x, "is my favorite")
