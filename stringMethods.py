@@ -127,3 +127,16 @@ txt = "     banana     "
 x = txt.strip()
 
 print("of all fruits", x, "is my favorite")
+
+txt = ",,,,,rrttgg.....banana....rrr"
+
+x = txt.strip(",.grt")
+
+print(x)
+
+#use a dictionary with ascii codes to replace 83 (S) with 80 (P):
+mydict = {83:  80}
+
+txt = "Hello Sam!"
+
+print(txt.translate(mydict))
