@@ -120,3 +120,9 @@ print(thislist)
 thislist = ["apple", "banana", "cherry", "banana", "kiwi"]
 thislist.remove("banana")
 print(thislist)
+
+#The pop() method removes the specified index.
+
+thislist = ["apple", "banana", "cherry"]
+thislist.pop(1)
+print(thislist)
