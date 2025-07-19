@@ -175,3 +175,10 @@ for x in thislist:
 thislist = ["apple", "banana", "cherry"]
 
 [print(x) for x in thislist]
+
+
+#Sort the list alphabetically:
+
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+thislist.sort()
+print(thislist)
