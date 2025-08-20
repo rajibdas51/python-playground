@@ -87,3 +87,11 @@ thisset = {"apple", "banana", "cherry"}
 del thisset
 
 print(thisset)
+
+
+#Loop through the set, and print the values:
+
+thisset = {"apple", "banana", "cherry"}
+
+for x in thisset:
+  print(x)
