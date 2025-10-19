@@ -29,3 +29,10 @@ elif a == b:
   print("a and b are equal")
 else:
   print("a is greater than b")
+
+  
+#Short Hand If
+
+a = 5
+b = 2
+if a > b: print("a is greater than b")
