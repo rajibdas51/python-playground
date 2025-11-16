@@ -32,3 +32,4 @@ print(myfunction())
 print(otherfunction())
 
 #Arguments in the Decorated Function
+
