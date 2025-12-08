@@ -14,3 +14,6 @@ x = len(cars)
 for x in cars:
   print(x)
 
+ # Add one more element to the cars array:
+
+cars.append("Honda")
