@@ -17,3 +17,11 @@ for x in cars:
  # Add one more element to the cars array:
 
 cars.append("Honda")
+
+#Removing Array Elements
+
+cars.pop(1)
+
+#Delete the element that has the value "Volvo":
+
+cars.remove("Volvo")
