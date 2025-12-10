@@ -5,4 +5,8 @@ def greeting(name):
   print("Hello, " + name)
 
 
-  
+#Import the module named mymodule, and call the greeting function:
+
+import mymodule
+
+mymodule.greeting("Jonathan")
