@@ -37,3 +37,11 @@ import mymodule as mx
 
 a = mx.person1["age"]
 print(a)
+
+
+#List all the defined names belonging to the platform module:
+
+import platform
+
+x = dir(platform)
+print(x)
