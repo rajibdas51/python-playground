@@ -13,3 +13,11 @@ import datetime
 x = datetime.datetime(2020, 5, 17)
 
 print(x)
+
+#Display the name of the month:
+
+import datetime
+
+x = datetime.datetime(2018, 6, 1)
+
+print(x.strftime("%B"))
