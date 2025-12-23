@@ -40,4 +40,8 @@ print(type(p))
 print(type(q))
 print(type(r))
 
+print(2**3)  # this is means 2 to the power 3
+
+print( 5 // 4) # this is floor division. it gives a rounded floor number
+
 
