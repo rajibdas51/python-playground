@@ -28,3 +28,16 @@ print("Bangladesh" not in str)
 txt = "The best things in life are free!"
 if "expensive" not in txt:
   print("No, 'expensive' is NOT present.")
+
+
+#Display the value 95 with 2 decimals:
+
+txt = f"The price is {95:.2f} dollars"
+print(txt)
+
+#Add taxes before displaying the price:
+
+price = 59
+tax = 0.25
+txt = f"The price is {price + (price * tax)} dollars"
+print(txt)
